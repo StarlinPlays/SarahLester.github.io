@@ -9,8 +9,9 @@ p {
 color: red;
 }
 h1 {
+
 }
- text-align; center;
+ text-align: center;
 .myImage {
   float: left;
   width: 200px;
