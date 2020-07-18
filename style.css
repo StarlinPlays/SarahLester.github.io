@@ -1,5 +1,7 @@
 body {
  background-image: url('crumpled-paper-texture_1048-2259.jpg');
+ background-repeat: no-repeat;
+ background-size: 100%;
  color: purple;
  font-family: monospace;
 }
