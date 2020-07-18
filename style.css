@@ -1,9 +1,14 @@
+body {
+ background-color: pink;
+ color: purple;
+ font-family: monospace;
+}
+p {
+color: red;
+}
 h1 {
  border: 1px dashed black;
  margin: 5px;
  padding: 10px;
  text-align: center; 
-}
-p {
-color: red;
 }
