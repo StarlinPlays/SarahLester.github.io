@@ -9,15 +9,13 @@ p {
 color: red;
 }
 h1 {
- border: 1px dashed black;
- margin: 5px;
- padding: 10px;
+}
  text-align; center;
 .myImage {
-  float: right;
+  float: left;
   width: 200px;
   height: 200px;
  }
  .name {
-  float: left;
+  float: right;
  }
