@@ -9,14 +9,14 @@ p {
 color: red;
 }
 h1 {
-text-decoration-line: underline;
+
 }
  text-align: center;
  .name {
-  float: center;
+  
  }
 hr {
  width: 60%;
- height: 1px;
+ height: 10px;
  background-color: f3294b;
 }
