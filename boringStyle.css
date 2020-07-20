@@ -1,0 +1,206 @@
+body{
+  /* comments*/
+  background-image: url(crumpled-paper-texture_1048-2259.jpg);
+  background-repeat: repeat;
+  background-size: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: monospace;
+
+  /* everything is a box*/
+}
+
+.myImage {
+  border-style: ridge;
+  border-color: none;
+  border-width: 5px;
+  transform: rotate(5deg);
+  position: relative;
+  right: 80px;
+  bottom: 150px;
+  float: right;
+
+}
+
+h1 {
+  position: relative;
+  left: 5px;
+  bottom: 5px;
+  font-size: 70px;
+}
+  .headingLine {
+  position: relative;
+  bottom: 55px;
+  height: 3px;
+  background-color: black;
+  border: none;
+  }
+  .phone {
+  position: relative;
+  bottom: 55px;
+  left: 10px;
+  margin: 0px;
+  }
+  .emailAddress {
+    position: relative;
+    bottom: 54px;
+    left: 10px;
+    margin: 0px;
+  }
+  .address {
+  position: relative;
+  bottom: 54px;
+  left: 10px;
+  margin: 0px;
+  }
+.aboutMe {
+  font-size: 18px;
+  position: relative;
+  bottom: 40px;
+  left: 125px;
+  width: 375px;
+  padding: 15px;
+  margin: 0px;
+}
+h6 {
+  margin: 0px;
+  position: relative;
+  bottom: 35px;
+  left: 5px;
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+  .school {
+    font-size: 20px;
+    margin: 0px;
+    position: relative;
+    left: 5px;
+    bottom: 30px;
+  }
+  .educationLevel {
+    font-size:20px;
+    margin: 0px;
+    position: relative;
+    left: 35px;
+    bottom: 30px;
+  }
+  .schoolAccomplishments {
+    margin: 0px;
+    position: relative;
+    list-style-type: circle;
+  }
+  li {
+    font-size: 16px;
+    margin: 5px;
+    color: black;
+  }
+li span {
+    color: black;
+  }
+h2 {
+  position: relative;
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+h3 {
+  position: relative;
+  font-size: 25px;
+}
+  .petSmartLine {
+    position: relative;
+    height: 1px;
+    background-color: black;
+    border: none;
+  }
+  .petSmartDate {
+    position: relative;
+    float: right;
+    font-family: cursive;
+  }
+  .petSmartJobTitle {
+    position: relative;
+    left: 5px;
+  }
+  .petSmartJobDuties {
+    position: relative;
+    left: 10px;
+  }
+h4 {
+  position: relative;
+  left: 15px;
+  font-size: 25px
+}
+  .walmartLine {
+    position: relative;
+    height: 1px;
+    background-color: black;
+    border: none;
+  }
+  .walmartDate {
+    position: relative;
+    float: right;
+    font-family: cursive;
+  }
+  .walmartJobTitles {
+    position: relative;
+    left: 5px;
+  }
+  .walmartJobDuties {
+    position: relative;
+    left: 10px;
+  }
+h5 {
+  position: relative;
+  left: 15px;
+  font-size: 25px
+}
+  .mcDonaldsLine {
+    position: relative;
+    height: 1px;
+    background-color: black;
+    border: none;
+  }
+  .mcDonaldsDate {
+    position: relative;
+    float: right;
+    font-family: cursive;
+  }
+  .mcDonaldsJobTitles {
+    position: relative;
+    left: 5px;
+  }
+  .mcDonaldsJobTitle2 {
+    position: relative;
+    left: 5px;
+  }
+  .mcDonaldsJobDuties2 {
+    position: relative;
+    left: 5px;
+  }
+  .mcDonaldsJobDuties {
+    position: relative;
+    left: 10px;
+  }
+  .button {
+          background-color: none;
+          border-style: ridge;
+          border-width: 2px;
+          border-color: black;
+          color: black;
+          padding: 20px 34px;
+          text-decoration: none;
+          text-align: center;
+          display: inline-block;
+          font-size: 20px;
+          margin: 4px 2px;
+          cursor: pointer;
+          position: relative;
+          left: 300px;
+        }
+.button:hover {
+  background-color: grey;
+  color: white;
+}
