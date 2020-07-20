@@ -1,22 +1,81 @@
-body {
- background-image: url('crumpled-paper-texture_1048-2259.jpg');
- background-repeat: no-repeat;
- background-size: 100%;
- color: purple;
- font-family: monospace;
-}
-p {
-color: red;
-}
-h1 {
-text-align: center;
-}
- 
- .name {
-  
- }
-hr {
- width: 60%;
- height: 3px;
- background-color: #f52887;
-}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Resume</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+    <h1 class="heading">Sarah Lester</h1>
+    <hr class="headingLine">
+    <img src="IMG_20200423_095622_553.jpg" width="200" height="200" class="myImage" alt="Picture of Me and My Dog">
+
+    <p class="phone">Phone: 701-566-3049</p>
+    <p class="emailAddress">Sunlite78901@yahoo.com</p>
+    <p class="address">Address: 4444 Domingo Rd. Fargo, ND 58103</p>
+
+    <p class="aboutMe">Enthusiastic to learn, Creative, Passionate about projects to a fault, Attention to detail,
+       Ready to work with and help others.</p>
+      <h6 class="education">Education</h6>
+        <p class="school">West Fargo High School</p>
+        <p class="educationLevel">2020 Graduate</p>
+          <img src="20200719_161853.jpg" width="200" height="200" class="graduation" alt="Picture on Graduation">
+            <ul class="schoolAccomplishments">
+              <li><span>Juggled working at mcdonalds, homework, and extracuricular activities for most of highschool.
+              Maintained a 3.0 average during this time.</span></li>
+              <li><span>Participated in the Swim Team, where during the last year of swimming
+              I was incharge of a new group of swimmers. I kept them focused during practice and made sure they felt
+            welcomed and happy during meets.</span></li>
+              <li><span>Attended Science Olympiad sessions, worked on multiple different things such as,
+              architechure and building, music theory and creation of an instrument, game programming, forensic science, etc.
+              Won 1st place twice in a row for architecture, placed 3rd and 2nd in forensics, and had this years competition
+              not been canceled I am very confident I would have gotten 3rd in music theory and 1st in forensics.</span></li>
+              <li><span>Actively participated in Close-Up, which is a program for highschool juniors and senior to
+              take a trip to Washington, DC. Everyone needed to raise atleast $1,000 before April their
+              traveling year. Throughout High school I worked many concession jobs for the school and the Fargo-Dome to
+              make up this money. However due to Covid, the trip has been postponed till as soon as August.</span></li>
+            </ul>
+      <h2>Professional Experience</h2>
+      <h3>PetSmart</h3>
+        <hr class="petSmartLine">
+          <p class="petSmartDate">October 2019 - present</p>
+          <p class="petSmartJobTitle">Seasonal worker</p>
+            <ul class="petSmartJobDuties">
+              <li><span>Placed mostly on the cash register, which meant deeling with customers groceries and problems.</span></li>
+              <li><span>During most shifts I would ask to take care of the cats, which meant cleaning andchanging their blankets
+              and liter, entertaining them by playing with them (this would actually help get to know them so I'd
+              have more to tell potential adopters), and feeding them their proper foods</span></li>
+              <li><span>Facing and stocking product when an extra cashier wasn't needed</span></li>
+            </ul>
+      <h4>Walmart</h4>
+        <hr class="walmartLine">
+          <p class="walmartDate">July 2019 - 2019</p>
+          <p class="walmartJobTitles">Cashier</p>
+            <ul class="walmartJobDuties">
+              <li><span>On cash register most of the time, where I dealt with some pretty difficult customers.</span></li>
+              <li><span>Worked in returns putting things back in their places and helping customers return broken
+              or oversized items.</span></li>
+            </ul>
+      <h5>McDonalds</h5>
+        <hr class="mcDonaldsLine">
+          <p class="mcDonaldsDate">July 2016 - 2019</p>
+          <p class="mcDonaldsJobTitles">Cashier</p>
+          <img src="20200719_163908.jpg" width="200" height="200" class="mcDonaldsMe" alt="When I first started at McDonalds">
+            <p class="pictureDescription">Blurry Picture Courtesy of Robert Lester</p>
+              <ul class="mcDonaldsJobDuties">
+                <li><span>Took orders while interacting with guests, asking how their day was, helping them through the
+                difficult process of ordering, etc.</span></li>
+                <li><span>when there was no need for a cashier I would help by putting together order, grabbing
+                milkshakes, icecream cones, fries, drinks and more.</span></li>
+              </ul>
+          <p class="mcDonaldsJobTitle2">Crew Trainer</p>
+            <ul class="mcDonaldsJobDuties2">
+              <li><span>Incharge of training new crew members on how to use the computers, grills, speakers, drink
+              machines, and the burger line.</span></li>
+              <li><span>At this point I had already worked there for 2 years and they trusted me with some manager
+              duties. So I was placed in charge of the front area a lot.</span></li>
+            </ul>
+  <a href="https://starlinplays.github.io/" class="button">Less Exciting Resume</a>
+  </body>
+</html>
